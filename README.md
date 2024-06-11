@@ -1,15 +1,13 @@
-## Witty Facts - A React App with Supabase
+## Witty Blog - A React-powered Blog Posting Platform
 
-This is a React application that allows users to share, browse, and vote on interesting facts. The app is built with:
-
-* **React:** The core JavaScript library for building user interfaces.
-* **Supabase:** A database and backend service that powers data storage and authentication.
-* **CSS:** Styles for visual design and layout.
+This repository houses the code for "Witty Blog," a dynamic blog posting platform built with React and Supabase. Witty Blog allows users to create, share, and interact with blog posts through a user-friendly and responsive interface.
 
 ### Features
 
-* **Fact Sharing:** Users can submit new facts with source links and categorize them.
-* **Fact Browsing:**  Browse facts organized by category or view all facts.
-* **Voting:** Users can vote on facts as "Interesting," "Mindblowing," or "False."
-* **Disputed Facts:** Facts with more "False" votes than "Interesting" or "Mindblowing" votes are marked as "disputed."
-* **Responsive Design:** The application adapts to different screen sizes.
+* **Blog Post Creation:** Users can write and publish their own blog posts with rich text formatting and media uploads.
+* **Post Exploration:** Browse posts organized by category or explore the latest posts.
+* **Interactive Voting:** Users can vote on posts they find interesting, useful, or insightful, fostering a sense of community and engagement.
+* **Data Persistence:** Posts are stored securely and persistently in a Supabase database, ensuring data integrity and accessibility.
+* **Responsive Design:** The platform adapts seamlessly to different screen sizes, ensuring a smooth user experience across various devices.
+* **React-Powered Front-End:**  The front-end is built with React, providing a robust and efficient framework for dynamic content rendering and user interactions.
+
