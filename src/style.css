@@ -6,7 +6,7 @@
 
   
 body {
-  background-color: var(--token-e8e6443a-85ba-42c3-aed6-2a34e9b7ba37, #0c0c0e);
+  background-color: var(--token-e8e6443a-85ba-42c3-aed6-2a34e9b7ba37, #292727);
   color: #fafaf9;
   font-family: "Sono", sans-serif;
   padding: 48px 64px 0px;
@@ -96,7 +96,7 @@ h1 {
 .fact {
   font-size: 20px;
   line-height: 1.4;
-  background: rgb(32, 32, 36);
+  background: rgb(65, 63, 63);
   margin-bottom: 16px;
   padding: 16px 24px;
   letter-spacing: -1px;
