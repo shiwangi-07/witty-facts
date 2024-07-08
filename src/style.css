@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-  
 body {
-  background-color: var(--token-e8e6443a-85ba-42c3-aed6-2a34e9b7ba37, #292727);
+  background-color: var(--token-e8e6443a-85ba-42c3-aed6-2a34e9b7ba37, #1f1f1f);
   color: #fafaf9;
   font-family: "Sono", sans-serif;
   padding: 48px 64px 0px;
@@ -96,7 +95,7 @@ h1 {
 .fact {
   font-size: 20px;
   line-height: 1.4;
-  background: rgb(65, 63, 63);
+  background: #4C4B4B;
   margin-bottom: 16px;
   padding: 16px 24px;
   letter-spacing: -1px;
@@ -258,7 +257,7 @@ ul {
   
 /* FORM */
 .fact-form {
-  background: rgb(32, 32, 36);
+  background: #4c4b4b;
   margin-bottom: 40px;
   padding: 16px 32px;
   display: flex;
@@ -270,7 +269,7 @@ ul {
 .fact-form input,
 .fact-form select {
   width: 220px;
-  background-color: #726d69;
+  background-color: #91919dd7;
   border: none;
   border-radius: 100px;
   padding: 16px;
@@ -280,7 +279,7 @@ ul {
 }
 
 .fact-form input::placeholder {
-  color: #a8a29e;
+  color: #d4d0cd;
 }
 
 .fact-form input:first-child {
