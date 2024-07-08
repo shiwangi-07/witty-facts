@@ -1,13 +1,30 @@
-## Witty Blog - A React-powered Blog Posting Platform
+# WittyFacts (A Fact Sharing Web Application)
 
-This repository houses the code for "Witty Blog," a dynamic blog posting platform built with React and Supabase. Witty Blog allows users to create, share, and interact with blog posts through a user-friendly and responsive interface.
+This full stack web application, developed with HTML, CSS, JavaScript, and React.js on the frontend and Supabase on the backend, allows users to upload facts, attach trustworthy source links, categorize them, and engage with them through reactions and voting.
 
-### Features
+## Features
 
-* **Blog Post Creation:** Users can write and publish their own blog posts with rich text formatting and media uploads.
-* **Post Exploration:** Browse posts organized by category or explore the latest posts.
-* **Interactive Voting:** Users can vote on posts they find interesting, useful, or insightful, fostering a sense of community and engagement.
-* **Data Persistence:** Posts are stored securely and persistently in a Supabase database, ensuring data integrity and accessibility.
-* **Responsive Design:** The platform adapts seamlessly to different screen sizes, ensuring a smooth user experience across various devices.
-* **React-Powered Front-End:**  The front-end is built with React, providing a robust and efficient framework for dynamic content rendering and user interactions.
+- User-friendly interface for fact uploading and browsing
+- Facts are stored in Supabase, providing a reliable backend
+- Categorization of facts into 8 categories:
+  - Technology
+  - Science
+  - Finance
+  - Society
+  - Entertainment
+  - Health
+  - History
+  - News
+- Display of facts based on selected categories
+- Display of all facts when ALL category is selected
+- User interactions with facts:
+  - Thumbs up reaction
+  - Mind blowing reaction
+  - Downvote option
+- Fact dispute handling based on voting:
+  - If the number of downvotes exceeds the sum of thumbs up and mind blowing reactions, the fact is marked as disputed
+- Real-time updates without page reload using React.js
 
+## Deployment
+
+The project is deployed and accessible at: [WittyFacts](https://witty-facts.netlify.app/)
